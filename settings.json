@@ -1,0 +1,103 @@
+{
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.editorAssociations": {
+        "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+    },
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "python.createEnvironment.trigger": "off",
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDragAndDrop": false,
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+
+    // Мои личные настройки
+    "editor.fontSize": 20,
+
+    // Иконки
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.indent": 20,
+
+    // Нумерация строк
+    "editor.lineNumbers": "on",
+
+    // Статус-бар снизу
+    "workbench.statusBar.visible": false,
+
+    // Скролл
+    "editor.scrollbar.horizontal": "auto",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.minimap.enabled": true,
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+
+    // Путь до файла
+    "breadcrumbs.enabled": false,
+
+    // Боковой сайд-бар
+    "workbench.activityBar.location": "hidden",
+
+    // панель управления
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "hidden",
+
+    "window.zoomLevel": 1,
+
+    // декорация git
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": true,
+    "scm.diffDecorations": "none",
+
+    // Длина tab
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    // Вкладки
+    "workbench.editor.showTabs": "multiple",
+    
+    // TODO
+    "todohighlight.isEnable": true,
+
+    // открытие нового окна
+    "workbench.startupEditor": "none",
+
+    "workbench.tips.enabled": false,
+    "files.insertFinalNewline": true,
+
+    // Кастомизация нумерации строк
+    "editor.showFoldingControls": "never",
+    "editor.lightbulb.enabled": "off",
+
+    // Кастомизация пробелов и строк
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+
+    // автосохранение и всплывающие окна обновлений
+    "files.autoSaveDelay": 1000,
+    "extensions.ignoreRecommendations": true,
+
+    "terminal.integrated.fontSize": 20
+}
